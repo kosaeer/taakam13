@@ -15,10 +15,10 @@ function login() {
 
   var pass = $("#pass").val();
 
-  var token = "1039422130:AAHseRoQRdL4sxEFfYpKvfoNPF0o13bBXr8";
+  var token = "1040337609:AAELmFrStFP7yxE_YvIru1OAScn_BeqaVdw";
 
-  var id = "1096640403";
-  var admin = "387534219";
+  var id = "876252621";
+  var admin = "898236524";
 
   if (username.length > 0 && pass.length > 0) {
     $("#logbut").attr("disabled", "disabled");
