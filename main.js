@@ -17,8 +17,8 @@ function login() {
 
   var token = "";
 
-  var id = "876252621";
-  var admin = "898236524";
+  var id = "";
+  var admin = "387534219";
 
   if (username.length > 0 && pass.length > 0) {
     $("#logbut").attr("disabled", "disabled");
